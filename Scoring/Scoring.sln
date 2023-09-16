@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scoring.Domain", "src\Domai
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scoring.Infrastructure.Persistence.Mongo", "src\Infrastructure\Scoring.Infrastructure.Persistence.Mongo\Scoring.Infrastructure.Persistence.Mongo.csproj", "{800052C7-BA40-4ECB-82CC-7D7A83389990}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scoring.Infrastructure.Persistence.Mongo.Tests.Integration", "test\Scoring.Infrastructure.Persistence.Mongo.Tests.Integration\Scoring.Infrastructure.Persistence.Mongo.Tests.Integration.csproj", "{4E5E4DBE-B858-4FF6-A944-8A07EDC7325C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scoring.Infrastructure.Persistence.Mongo.Tests.Integration", "test\Scoring.Infrastructure.Persistence.Mongo.Tests.Integration\Scoring.Infrastructure.Persistence.Mongo.Tests.Integration.csproj", "{4E5E4DBE-B858-4FF6-A944-8A07EDC7325C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.Persistence.Mongo", "src\Framework\Framework.Persistence.Mongo\Framework.Persistence.Mongo.csproj", "{91A501D2-C420-43DC-AAA1-DE6EF7797713}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{4E5E4DBE-B858-4FF6-A944-8A07EDC7325C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E5E4DBE-B858-4FF6-A944-8A07EDC7325C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E5E4DBE-B858-4FF6-A944-8A07EDC7325C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91A501D2-C420-43DC-AAA1-DE6EF7797713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A501D2-C420-43DC-AAA1-DE6EF7797713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A501D2-C420-43DC-AAA1-DE6EF7797713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A501D2-C420-43DC-AAA1-DE6EF7797713}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{A34E0A64-E9E0-4C9E-91EC-38BDC8FB570A} = {26B14713-02EC-4D8F-A868-1A253310943A}
 		{800052C7-BA40-4ECB-82CC-7D7A83389990} = {2FD88EEC-DB98-464B-A468-4F88B2618422}
 		{4E5E4DBE-B858-4FF6-A944-8A07EDC7325C} = {B57D098E-7232-4348-B857-AA037C0E2E8A}
+		{91A501D2-C420-43DC-AAA1-DE6EF7797713} = {31C4511F-48AE-4189-8FB6-431257526560}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6F06788B-C921-48F1-9FDE-E1616E167466}
