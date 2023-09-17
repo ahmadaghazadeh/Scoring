@@ -6,6 +6,7 @@ namespace Framework.Persistence.Mongo
 {
     public static class MappingRegistration
     {
+        //TODO: Can we use Scrutor 
         public static void RegisterAll(Assembly assembly)
         {
             var mappings = assembly.GetExportedTypes()

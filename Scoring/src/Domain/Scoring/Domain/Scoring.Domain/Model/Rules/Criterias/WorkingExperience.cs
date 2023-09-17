@@ -1,5 +1,4 @@
-﻿using System;
-using Framework.Core.Specifications;
+﻿using Framework.Core.Specifications;
 using Scoring.Domain.Model.Applicants;
 
 namespace Scoring.Domain.Model.Rules.Criterias
