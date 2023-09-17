@@ -19,13 +19,13 @@ namespace Scoring.Infrastructure.Persistence.Mongo
         public Task<Rule> Get(Guid id)
         {
             var collection=_database.GetCollection<Rule>("Rules");
-            var filter = Builders<Rule>.Filter.Eq("_id", id);
             return collection.Find(x => x.Id == id).FirstOrDefaultAsync();
         }
 
         public Task<List<Rule>> GetActiveRules()
         {
-            throw new NotImplementedException();
+            var collection = _database.GetCollection<Rule>("Rules");
+            return collection.Find(x => x.IsActive == true).ToListAsync();
         }
     }
 }
