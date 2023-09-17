@@ -13,6 +13,7 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\..\Domain\Scoring.Domain\Scoring.Domain.csproj" />
+	  <ProjectReference Include="..\..\Framework\Framework.Persistence.Mongo\Framework.Persistence.Mongo.csproj" />
 	</ItemGroup>
 
 </Project>

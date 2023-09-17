@@ -11,6 +11,6 @@ namespace Framework.Persistence.Mongo
         protected MongoRepository(IMongoDatabase database)
         {
             AggregateCollection = database.GetCollection<T>(typeof(T).Name.Pluralize());
-        }
+        }  
     }
 }

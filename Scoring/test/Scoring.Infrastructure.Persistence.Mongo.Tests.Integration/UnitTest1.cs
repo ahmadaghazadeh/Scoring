@@ -23,6 +23,7 @@ namespace Scoring.Infrastructure.Persistence.Mongo.Tests.Integration
                 .And(new WorkingExperience(TimeSpan.FromDays(10)));
             var rule = new Rule(Guid.NewGuid(), "Test Rule", spec);
             rule.Activate();
+            rule.SetCalculation(CalculationStrategy.IncreasePointsTo(1000));
             await repository.Add(rule);
 
             var ru = await repository.Get(rule.Id);
