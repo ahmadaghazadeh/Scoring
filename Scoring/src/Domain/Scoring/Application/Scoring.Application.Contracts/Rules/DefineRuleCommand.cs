@@ -6,7 +6,7 @@
 
         public bool IsIncreasing { get; set; }
 
-        public CriteriaData Criteria { get; set; }
+        public required CriteriaData Criteria { get; set; }
     }
 
     public class CriteriaData

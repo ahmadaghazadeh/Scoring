@@ -24,6 +24,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\Domain\Loan\Domain\Loan.Domain\Loan.Domain.csproj" />
+    <ProjectReference Include="..\..\src\Domain\Scoring\Domain\Scoring.Domain\Scoring.Domain.csproj" />
     <ProjectReference Include="..\..\src\Framework\Framework.Persistence.Mongo\Framework.Persistence.Mongo.csproj" />
     <ProjectReference Include="..\..\src\Infrastructure\Scoring.Infrastructure.Persistence.Mongo\Scoring.Infrastructure.Persistence.Mongo.csproj" />
   </ItemGroup>

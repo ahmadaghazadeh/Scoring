@@ -1,4 +1,3 @@
-
 using Framework.Core.Specifications;
 using Framework.Persistence.Mongo;
 using MongoDB.Bson.Serialization;
@@ -6,6 +5,7 @@ using MongoDB.Driver;
 using Scoring.Domain.Model.Applicants;
 using Scoring.Domain.Model.Rules;
 using Scoring.Domain.Model.Rules.Criterias;
+
 
 namespace Scoring.Infrastructure.Persistence.Mongo.Tests.Integration
 {
